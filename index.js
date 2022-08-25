@@ -12,14 +12,14 @@ let rounds = 2;
 
 function setup() {
   CANVAS_SIZE = 500;
-  GRID_SIZE = 50;
+  GRID_SIZE = 200;
   CELL_SIZE = CANVAS_SIZE / GRID_SIZE;
 
   COLORS = ["#363946", "#696773", "#819595", "#B1B6A6", "#645244", "#F4743B"];
 
   createCanvas(CANVAS_SIZE, CANVAS_SIZE);
   initGrid();
-  initialSandPile = 4000;
+  initialSandPile = 40000;
   maxLimit = 3;
   // startingPoint = [
   //   Math.floor(Math.random() * GRID_SIZE),
